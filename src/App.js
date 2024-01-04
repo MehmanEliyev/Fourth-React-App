@@ -6,6 +6,7 @@ import About from "./pages/About";
 function App() {
   return (
     <div className="App">
+      Hello World
       <Routes>
         <Route path="/"  element={<Home/>}></Route>
         <Route path="/about"  element={<About/>}></Route>
